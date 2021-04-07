@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCD81D26261D90A0005762CB /* Plot_CalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD81D25261D90A0005762CB /* Plot_CalcApp.swift */; };
+		DCD81D28261D90A0005762CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD81D27261D90A0005762CB /* ContentView.swift */; };
+		DCD81D2A261D90A1005762CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD81D29261D90A1005762CB /* Assets.xcassets */; };
+		DCD81D2D261D90A1005762CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD81D2C261D90A1005762CB /* Preview Assets.xcassets */; };
+		DCD81D2F261D90A1005762CB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD81D2E261D90A1005762CB /* Persistence.swift */; };
+		DCD81D32261D90A1005762CB /* Plot_Calc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCD81D30261D90A1005762CB /* Plot_Calc.xcdatamodeld */; };
+		DCD81D3D261D90A1005762CB /* Plot_CalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD81D3C261D90A1005762CB /* Plot_CalcTests.swift */; };
+		DCD81D48261D90A1005762CB /* Plot_CalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD81D47261D90A1005762CB /* Plot_CalcUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCD81D39261D90A1005762CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCD81D1A261D90A0005762CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD81D21261D90A0005762CB;
+			remoteInfo = "Plot Calc";
+		};
+		DCD81D44261D90A1005762CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCD81D1A261D90A0005762CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD81D21261D90A0005762CB;
+			remoteInfo = "Plot Calc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCD81D22261D90A0005762CB /* Plot Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plot Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD81D25261D90A0005762CB /* Plot_CalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plot_CalcApp.swift; sourceTree = "<group>"; };
+		DCD81D27261D90A0005762CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DCD81D29261D90A1005762CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCD81D2C261D90A1005762CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCD81D2E261D90A1005762CB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		DCD81D31261D90A1005762CB /* Plot_Calc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Plot_Calc.xcdatamodel; sourceTree = "<group>"; };
+		DCD81D33261D90A1005762CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD81D38261D90A1005762CB /* Plot CalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plot CalcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD81D3C261D90A1005762CB /* Plot_CalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plot_CalcTests.swift; sourceTree = "<group>"; };
+		DCD81D3E261D90A1005762CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD81D43261D90A1005762CB /* Plot CalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plot CalcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD81D47261D90A1005762CB /* Plot_CalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plot_CalcUITests.swift; sourceTree = "<group>"; };
+		DCD81D49261D90A1005762CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCD81D1F261D90A0005762CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD81D35261D90A1005762CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD81D40261D90A1005762CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCD81D19261D90A0005762CB = {
+			isa = PBXGroup;
+			children = (
+				DCD81D24261D90A0005762CB /* Plot Calc */,
+				DCD81D3B261D90A1005762CB /* Plot CalcTests */,
+				DCD81D46261D90A1005762CB /* Plot CalcUITests */,
+				DCD81D23261D90A0005762CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCD81D23261D90A0005762CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCD81D22261D90A0005762CB /* Plot Calc.app */,
+				DCD81D38261D90A1005762CB /* Plot CalcTests.xctest */,
+				DCD81D43261D90A1005762CB /* Plot CalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCD81D24261D90A0005762CB /* Plot Calc */ = {
+			isa = PBXGroup;
+			children = (
+				DCD81D25261D90A0005762CB /* Plot_CalcApp.swift */,
+				DCD81D27261D90A0005762CB /* ContentView.swift */,
+				DCD81D29261D90A1005762CB /* Assets.xcassets */,
+				DCD81D2E261D90A1005762CB /* Persistence.swift */,
+				DCD81D33261D90A1005762CB /* Info.plist */,
+				DCD81D30261D90A1005762CB /* Plot_Calc.xcdatamodeld */,
+				DCD81D2B261D90A1005762CB /* Preview Content */,
+			);
+			path = "Plot Calc";
+			sourceTree = "<group>";
+		};
+		DCD81D2B261D90A1005762CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DCD81D2C261D90A1005762CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCD81D3B261D90A1005762CB /* Plot CalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCD81D3C261D90A1005762CB /* Plot_CalcTests.swift */,
+				DCD81D3E261D90A1005762CB /* Info.plist */,
+			);
+			path = "Plot CalcTests";
+			sourceTree = "<group>";
+		};
+		DCD81D46261D90A1005762CB /* Plot CalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCD81D47261D90A1005762CB /* Plot_CalcUITests.swift */,
+				DCD81D49261D90A1005762CB /* Info.plist */,
+			);
+			path = "Plot CalcUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCD81D21261D90A0005762CB /* Plot Calc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD81D4C261D90A1005762CB /* Build configuration list for PBXNativeTarget "Plot Calc" */;
+			buildPhases = (
+				DCD81D1E261D90A0005762CB /* Sources */,
+				DCD81D1F261D90A0005762CB /* Frameworks */,
+				DCD81D20261D90A0005762CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Plot Calc";
+			productName = "Plot Calc";
+			productReference = DCD81D22261D90A0005762CB /* Plot Calc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCD81D37261D90A1005762CB /* Plot CalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD81D4F261D90A1005762CB /* Build configuration list for PBXNativeTarget "Plot CalcTests" */;
+			buildPhases = (
+				DCD81D34261D90A1005762CB /* Sources */,
+				DCD81D35261D90A1005762CB /* Frameworks */,
+				DCD81D36261D90A1005762CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCD81D3A261D90A1005762CB /* PBXTargetDependency */,
+			);
+			name = "Plot CalcTests";
+			productName = "Plot CalcTests";
+			productReference = DCD81D38261D90A1005762CB /* Plot CalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCD81D42261D90A1005762CB /* Plot CalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD81D52261D90A1005762CB /* Build configuration list for PBXNativeTarget "Plot CalcUITests" */;
+			buildPhases = (
+				DCD81D3F261D90A1005762CB /* Sources */,
+				DCD81D40261D90A1005762CB /* Frameworks */,
+				DCD81D41261D90A1005762CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCD81D45261D90A1005762CB /* PBXTargetDependency */,
+			);
+			name = "Plot CalcUITests";
+			productName = "Plot CalcUITests";
+			productReference = DCD81D43261D90A1005762CB /* Plot CalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCD81D1A261D90A0005762CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DCD81D21261D90A0005762CB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					DCD81D37261D90A1005762CB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DCD81D21261D90A0005762CB;
+					};
+					DCD81D42261D90A1005762CB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DCD81D21261D90A0005762CB;
+					};
+				};
+			};
+			buildConfigurationList = DCD81D1D261D90A0005762CB /* Build configuration list for PBXProject "Plot Calc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCD81D19261D90A0005762CB;
+			productRefGroup = DCD81D23261D90A0005762CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCD81D21261D90A0005762CB /* Plot Calc */,
+				DCD81D37261D90A1005762CB /* Plot CalcTests */,
+				DCD81D42261D90A1005762CB /* Plot CalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCD81D20261D90A0005762CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD81D2D261D90A1005762CB /* Preview Assets.xcassets in Resources */,
+				DCD81D2A261D90A1005762CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD81D36261D90A1005762CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD81D41261D90A1005762CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCD81D1E261D90A0005762CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD81D2F261D90A1005762CB /* Persistence.swift in Sources */,
+				DCD81D28261D90A0005762CB /* ContentView.swift in Sources */,
+				DCD81D26261D90A0005762CB /* Plot_CalcApp.swift in Sources */,
+				DCD81D32261D90A1005762CB /* Plot_Calc.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD81D34261D90A1005762CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD81D3D261D90A1005762CB /* Plot_CalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD81D3F261D90A1005762CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD81D48261D90A1005762CB /* Plot_CalcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCD81D3A261D90A1005762CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD81D21261D90A0005762CB /* Plot Calc */;
+			targetProxy = DCD81D39261D90A1005762CB /* PBXContainerItemProxy */;
+		};
+		DCD81D45261D90A1005762CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD81D21261D90A0005762CB /* Plot Calc */;
+			targetProxy = DCD81D44261D90A1005762CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DCD81D4A261D90A1005762CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCD81D4B261D90A1005762CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCD81D4D261D90A1005762CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Plot Calc/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Plot Calc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filip.dabkowski.Plot-Calc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCD81D4E261D90A1005762CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Plot Calc/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Plot Calc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filip.dabkowski.Plot-Calc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCD81D50261D90A1005762CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Plot CalcTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filip.dabkowski.Plot-CalcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plot Calc.app/Plot Calc";
+			};
+			name = Debug;
+		};
+		DCD81D51261D90A1005762CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Plot CalcTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filip.dabkowski.Plot-CalcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plot Calc.app/Plot Calc";
+			};
+			name = Release;
+		};
+		DCD81D53261D90A1005762CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Plot CalcUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filip.dabkowski.Plot-CalcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Plot Calc";
+			};
+			name = Debug;
+		};
+		DCD81D54261D90A1005762CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Plot CalcUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filip.dabkowski.Plot-CalcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Plot Calc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCD81D1D261D90A0005762CB /* Build configuration list for PBXProject "Plot Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD81D4A261D90A1005762CB /* Debug */,
+				DCD81D4B261D90A1005762CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD81D4C261D90A1005762CB /* Build configuration list for PBXNativeTarget "Plot Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD81D4D261D90A1005762CB /* Debug */,
+				DCD81D4E261D90A1005762CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD81D4F261D90A1005762CB /* Build configuration list for PBXNativeTarget "Plot CalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD81D50261D90A1005762CB /* Debug */,
+				DCD81D51261D90A1005762CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD81D52261D90A1005762CB /* Build configuration list for PBXNativeTarget "Plot CalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD81D53261D90A1005762CB /* Debug */,
+				DCD81D54261D90A1005762CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCD81D30261D90A1005762CB /* Plot_Calc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCD81D31261D90A1005762CB /* Plot_Calc.xcdatamodel */,
+			);
+			currentVersion = DCD81D31261D90A1005762CB /* Plot_Calc.xcdatamodel */;
+			path = Plot_Calc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DCD81D1A261D90A0005762CB /* Project object */;
+}
