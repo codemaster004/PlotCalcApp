@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC2BA13B26203F8200505FF7 /* Calculating.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2BA13A26203F8200505FF7 /* Calculating.swift */; };
+		DCC09905261DF6D100A4D8EE /* CalculatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC09904261DF6D100A4D8EE /* CalculatedView.swift */; };
 		DCD81D26261D90A0005762CB /* Plot_CalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD81D25261D90A0005762CB /* Plot_CalcApp.swift */; };
 		DCD81D28261D90A0005762CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD81D27261D90A0005762CB /* ContentView.swift */; };
 		DCD81D2A261D90A1005762CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD81D29261D90A1005762CB /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC2BA13A26203F8200505FF7 /* Calculating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculating.swift; sourceTree = "<group>"; };
+		DCC09904261DF6D100A4D8EE /* CalculatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatedView.swift; sourceTree = "<group>"; };
 		DCD81D22261D90A0005762CB /* Plot Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plot Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD81D25261D90A0005762CB /* Plot_CalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plot_CalcApp.swift; sourceTree = "<group>"; };
 		DCD81D27261D90A0005762CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,7 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				DCD81D25261D90A0005762CB /* Plot_CalcApp.swift */,
+				DC2BA13A26203F8200505FF7 /* Calculating.swift */,
 				DCD81D27261D90A0005762CB /* ContentView.swift */,
+				DCC09904261DF6D100A4D8EE /* CalculatedView.swift */,
 				DCD81D29261D90A1005762CB /* Assets.xcassets */,
 				DCD81D2E261D90A1005762CB /* Persistence.swift */,
 				DCD81D33261D90A1005762CB /* Info.plist */,
@@ -265,8 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC09905261DF6D100A4D8EE /* CalculatedView.swift in Sources */,
 				DCD81D2F261D90A1005762CB /* Persistence.swift in Sources */,
 				DCD81D28261D90A0005762CB /* ContentView.swift in Sources */,
+				DC2BA13B26203F8200505FF7 /* Calculating.swift in Sources */,
 				DCD81D26261D90A0005762CB /* Plot_CalcApp.swift in Sources */,
 				DCD81D32261D90A1005762CB /* Plot_Calc.xcdatamodeld in Sources */,
 			);
@@ -427,6 +435,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Plot Calc/Preview Content\"";
+				DEVELOPMENT_TEAM = W2FD463PKM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Plot Calc/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -437,7 +446,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.filip.dabkowski.Plot-Calc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -448,6 +457,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Plot Calc/Preview Content\"";
+				DEVELOPMENT_TEAM = W2FD463PKM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Plot Calc/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -458,7 +468,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.filip.dabkowski.Plot-Calc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
